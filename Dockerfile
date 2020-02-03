@@ -7,6 +7,7 @@ RUN apt-get update && \
     libatk-bridge2.0-0 \
     libgconf-2-4 \
     openjdk-11-jre-headless \
+    zip \
     && rm -rf /var/lib/apt/lists/*
 
 USER node
